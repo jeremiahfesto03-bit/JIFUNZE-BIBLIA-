@@ -1,103 +1,179 @@
-""<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="sw">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jifunze Biblia na Jeremiah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #283593;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #3f51b5;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #283593;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jifunze Biblia na Jeremiah</h1>
+  <p>Karibu tujifunze Neno la Mungu pamoja</p>
+</header>
+
+<nav>
+  <a href="#biblia">Biblia</a>
+  <a href="#masomo">Masomo</a>
+  <a href="#sala">Sala</a>
+  <a href="#wasiliana">Wasiliana</a>
+</nav>
+
+<div class="content" id="biblia">
+  <h2>📖 Biblia</h2>
+  <p>Hapa utaweza kusoma Biblia Takatifu kwa urahisi. Unaweza kuchagua vitabu mbalimbali na sura zake.</p>
+</div>
+
+<div class="content" id="masomo">
+  <h2>📚 Masomo ya Biblia</h2>
+  <p>Tunashirikiana kujifunza masomo mbalimbali ya Biblia kwa mtindo wa mafundisho ya kina. Masomo mapya huongezwa kila wiki.</p>
+</div>
+
+<div class="content" id="sala">
+  <h2>🙏 Sala</h2>
+  <p>Jifunze kusali kwa namna inayofaa. Tunakuwekea mfano wa sala, mistari ya kuombea, na nyakati bora za maombi.</p>
+</div>
+
+<div class="content" id="wasiliana">
+  <h2>📞 Wasiliana Nasi</h2>
+  <p>Una swali au maombi? Tuma ujumbe kupitia <a href="mailto:jeremiah@example.com">jeremiah@example.com</a> au kupitia WhatsApp.</p>
+</div>
+
+<footer>
+  <p>&copy; 2025 Jifunze Biblia na Jeremiah | All Rights Reserved</p>
+</footer>
+
+</body><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jifunze Biblia</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f8ff;
+      background: #f3f6fb;
       margin: 0;
       padding: 0;
-      color: #333;
-    }header {
-  background-color: #2d3e50;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-nav {
-  background-color: #1e90ff;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  color: #2d3e50;
-}
-
-footer {
-  background-color: #2d3e50;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-}
-
+    }
+    header {
+      background: #243c5a;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #324d76;
+    }
+    nav a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #506d94;
+    }
+    .content {
+      padding: 2em;
+    }
+    footer {
+      background: #243c5a;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
-<body>  <header>
-    <h1>Karibu Jifunze Biblia</h1>
-    <p>Ukweli wa Neno la Mungu kwa kila mtu</p>
+<body>
+  <header>
+    <h1>Jifunze Biblia</h1>
+    <p>Karibu kwenye ukurasa wa kujifunza Neno la Mungu</p>
   </header>  <nav>
-    <a href="#bible">Soma Biblia</a>
-    <a href="#lessons">Masomo</a>
+    <a href="#home">Nyumbani</a>
+    <a href="#vifungu">Vifungu</a>
+    <a href="#somo">Masomo</a>
     <a href="#sala">Sala</a>
-    <a href="#contact">Wasiliana Nasi</a>
-  </nav>  <main>
-    <section id="bible">
-      <h2>Soma Biblia</h2>
-      <p>Bonyeza hapa kusoma Biblia online: 
-        <a href="https://www.bible.com/sw/bible" target="_blank">Fungua Biblia Kiswahili</a>
-      </p>
-    </section><section id="lessons">
-  <h2>Masomo ya Biblia</h2>
-  <ul>
-    <li><strong>Upendo wa Mungu</strong> – Jinsi Mungu anavyotupenda bila masharti.</li>
-    <li><strong>Maisha ya Kikristo</strong> – Kuishi kwa imani, matumaini na ushindi.</li>
-    <li><strong>Siku za Mwisho</strong> – Ishara na maandalizi ya kurudi kwa Yesu.</li>
-  </ul>
-</section>
-
-<section id="sala">
-  <h2>Sala za Kila Siku</h2>
-  <p>“Baba yetu uliye mbinguni, jina lako litukuzwe…”</p>
-  <p>Omba kila siku asubuhi na jioni. Mshukuru Mungu kwa maisha yako na muombe akuongoze.</p>
-</section>
-
-<section id="contact">
-  <h2>Wasiliana Nasi</h2>
-  <p>Una maswali au unahitaji maombi? Tutumie ujumbe kupitia WhatsApp: <strong>+255 712 345 678</strong></p>
-</section>
-
-  </main>  <footer>
-    <p>&copy; 2025 Jifunze Biblia. Haki zote zimehifadhiwa.</p>
-  </footer></body>
+    <a href="#mawasiliano">Mawasiliano</a>
+  </nav>  <div class="content" id="home">
+    <h2>Karibu!</h2>
+    <p>Jifunze Biblia, tafakari, na uombee maisha yako kila siku.</p>
+  </div>  <div class="content" id="vifungu">
+    <h2>Vifungu vya Biblia</h2>
+    <p>Bofya hapa kusoma vifungu: <a href="https://www.bible.com/sw/" target="_blank">Fungua Biblia</a></p>
+  </div>  <div class="content" id="somo">
+    <h2>Masomo</h2>
+    <p>Tafakari ya leo: <strong>Yakobo 1:5</strong> - "Lakini mtu wa kwenu akipungukiwa na hekima, na aombe dua kwa Mungu, awapaye wote kwa ukarimu, wala hakemei; naye atapewa."</p>
+  </div>  <div class="content" id="sala">
+    <h2>Sala</h2>
+    <p>Bwana Mungu, nisaidie kuelewa Neno lako na kulitenda kwa moyo wote. Amina.</p>
+  </div>  <div class="content" id="mawasiliano">
+    <h2>Mawasiliano</h2>
+    <p>Kwa maoni au maswali, tuma barua pepe kwa: <a href="mailto:jeremiah@example.com">jeremiah@example.com</a></p>
+  </div>  <footer>
+    &copy; 2025 Jifunze Biblia | Imetengenezwa na Jeremiah Festo
+  </footer>
+</body>
 </html>
-""
+</html>
